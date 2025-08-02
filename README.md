@@ -27,7 +27,7 @@ npm install
 ### **3. Environment Configuration**
 ```bash
 # Copy the environment template
-cp env.template .env
+cp env.example .env
 
 # Edit the .env file with your actual values
 nano .env  # or use your preferred editor
@@ -229,9 +229,8 @@ air-quality/
 │   ├── controllers/          # Controller tests
 │   └── setup.ts             # Test configuration
 ├── dist/                     # Compiled JavaScript (generated)
-├── coverage/                 # Test coverage reports (generated)
 ├── .env                     # Environment variables (create from template)
-├── env.template             # Environment variables template
+├── env.example             # Environment variables template
 ├── jest.config.js           # Jest testing configuration
 ├── tsconfig.json           # TypeScript configuration
 ├── package.json            # Dependencies and scripts
@@ -358,7 +357,7 @@ npm start
 
 
 ### **Environment Setup**
-1. Copy `env.template` to `.env`
+1. Copy `env.example` to `.env`
 2. Update all required variables
 3. Set production values for deployment
 
